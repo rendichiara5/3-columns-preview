@@ -19,7 +19,7 @@
 body {
     font-size: 15px;
     font-family: 'Big Shoulders Display', cursive;
-    min-height: 100vh;
+    min-height: 150vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,6 +189,9 @@ body {
 
 @media (min-width: 944px) {
 
+    body {
+        min-height: 100vh;
+    }
     .main__container {
         display: flex;
         flex-direction: row;
@@ -208,7 +211,7 @@ body {
 
 /* footer */
 .attribution {
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
 }
 .attribution a {
